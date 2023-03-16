@@ -1,6 +1,8 @@
-from item import Item
 from phone import Phone
 
-Item.create_from_csv()
+item1 = Phone("phone", 1000, 3)
 
-print(Item.all)
+item1.apply_increment(0.2)
+
+4
+print(item1.price)
